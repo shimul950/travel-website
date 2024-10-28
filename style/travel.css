@@ -1,0 +1,24 @@
+*{
+  font-family: "Mulish", serif;
+  font-optical-sizing: auto;
+
+}
+.orange{
+    color: rgb(255, 84, 0);
+}
+
+/* navber design */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-div-1{
+    display: flex;
+    align-items: center;
+}
+.nav-div-2{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
