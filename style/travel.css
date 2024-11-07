@@ -313,9 +313,80 @@ p{
     border: none;
     border-radius: 10px;
 }
-
-
-
+/* perfect section */
+.perfect-section{
+    display: flex;
+    margin: 50px 0px;
+    gap: 30px;
+}
+.perfect-img{
+    background: url(../Images/Group\ 40089.png);
+    background-repeat: no-repeat;
+    width: 610px;
+    height: 400px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    border-radius: 20px;
+    
+    
+    
+}
+/* newsletter section */
+.newsletter-input-div{
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 10px;
+    padding: 10px;
+    height: 400px;
+}
+.newsletter-input{
+    height: 52px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+    background-color: rgba(19, 19, 24, 0.05);
+    
+}
+.newsletter-in-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.sub-btn{
+    width: 400px;
+    height: 52px;
+    color: aliceblue;
+    background-color:rgb(255, 84, 0) ;
+    border: none;
+    border-radius: 10px;
+}
+.newsletter{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.save-div{
+    text-align: center;
+    background-color:rgb(255, 84, 0) ;
+    color: aliceblue;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    position: relative;
+    left: 950px;
+    bottom: 130px;
+    transform: rotate(-15deg);
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
 
 
 
@@ -388,4 +459,26 @@ p{
     .card{
         margin-right:30px;
     }
+    .perfect-section{
+        flex-direction: column;
+    }
+    .perfect-img{
+        width: 400px;
+        text-align: center;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .newsletter-img{
+        width: 410px;
+    }
+    .save-div{
+        left: 190px;
+        bottom: 130px;
+        transform: rotate(-15deg);
+        width: 200px;
+        height: 80px;
+        padding-top: 5px;
+    }
+    
 }
